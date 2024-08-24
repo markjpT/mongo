@@ -45,11 +45,11 @@ cheetah3 = "<=3.2.6.post1" # src/mongo/base/generate_error_codes.py
 packaging = "^23.1"
 regex = "^2021.11.10"
 setuptools = "^58.1.0"
-wheel = "0.37.0"
+wheel = "0.38.1"
 
 [tool.poetry.group.core.dependencies]
 psutil = "^6.0.0"
-pymongo = "4.3.3"
+pymongo = "4.6.3"
 PyYAML = "5.3.1"
 types-PyYAML = "^6.0.12.20240808"
 requests = "^2.32.3"
@@ -136,7 +136,7 @@ ocspbuilder = "^0.10.2"
 
 # Werkzeug is needed for ocsp tests in ocsp_mock.py
 # version 3+ fails with "ImportError: cannot import name 'url_quote' from 'werkzeug.urls'"
-Werkzeug = "<=2.3.7"
+Werkzeug = "<=3.0.3"
 PyGithub = "^1.58"
 urllib3 = "^2.2.2"
 distro = "^1.9.0"
